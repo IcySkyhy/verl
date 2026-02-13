@@ -1,0 +1,61 @@
+{
+  "os": "Linux-5.15.0-141-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.0",
+  "startedAt": "2025-06-27T02:04:46.759728Z",
+  "args": [
+    "--node-ip-address=192.168.31.246",
+    "--node-manager-port=42125",
+    "--object-store-name=/tmp/ray/session_2025-06-27_10-02-56_202545_770600/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-06-27_10-02-56_202545_770600/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=61957",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=59177",
+    "--gcs-address=192.168.31.246:45778",
+    "--session-name=session_2025-06-27_10-02-56_202545_770600",
+    "--temp-dir=/tmp/ray",
+    "--webui=127.0.0.1:8265",
+    "--cluster-id=4bccbbeeb04ace763a29327ae0e93c9df17e42cb4a86d7856a63ee71",
+    "--startup-token=36",
+    "--worker-launch-time-ms=1750989791581",
+    "--node-id=7e5f189b74c53bb9bf690dcc9430c82f6e45189211a4b04c6a928069",
+    "--runtime-env-hash=-1624044036",
+    "--enable-resource-isolation=false"
+  ],
+  "program": "/home/stu6/anaconda3/envs/verl/lib/python3.10/site-packages/ray/_private/workers/default_worker.py",
+  "git": {
+    "remote": "https://github.com/volcengine/verl.git",
+    "commit": "9bc360aa97e274224598ad92735f2d91d50ed24a"
+  },
+  "email": "huyan23@mails.tsinghua.edu.cn",
+  "root": "/home/stu6/verl",
+  "host": "bayesian",
+  "executable": "/home/stu6/anaconda3/envs/verl/bin/python3",
+  "cpu_count": 18,
+  "cpu_count_logical": 36,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "982240026624",
+      "used": "858979176448"
+    }
+  },
+  "memory": {
+    "total": "134732292096"
+  },
+  "cpu": {
+    "count": 18,
+    "countLogical": 36
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3090",
+      "memoryTotal": "25769803776",
+      "cudaCores": 10496,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

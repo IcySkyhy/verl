@@ -1,0 +1,59 @@
+{
+  "os": "Linux-5.15.0-156-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-09-27T01:59:36.442756Z",
+  "args": [
+    "--node-ip-address=192.168.31.246",
+    "--node-manager-port=34207",
+    "--object-store-name=/tmp/ray/session_2025-09-27_09-57-44_362743_177531/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-09-27_09-57-44_362743_177531/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=47733",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=62068",
+    "--gcs-address=192.168.31.246:59261",
+    "--session-name=session_2025-09-27_09-57-44_362743_177531",
+    "--temp-dir=/tmp/ray",
+    "--webui=127.0.0.1:8265",
+    "--cluster-id=ba9e126f1789df3082a7f70d0d972d468e401fd9ad04ae7834c60880",
+    "--startup-token=36",
+    "--worker-launch-time-ms=1758938279171",
+    "--node-id=aff21307c8d98073ea8d39264a522eea51c15812cdbd70199df5c32d",
+    "--runtime-env-hash=-1624044036",
+    "--enable-resource-isolation=false"
+  ],
+  "program": "/home/stu6/anaconda3/envs/verl/lib/python3.10/site-packages/ray/_private/workers/default_worker.py",
+  "git": {
+    "remote": "https://github.com/volcengine/verl.git",
+    "commit": "9bc360aa97e274224598ad92735f2d91d50ed24a"
+  },
+  "email": "huyan23@mails.tsinghua.edu.cn",
+  "root": "/home/stu6/verl",
+  "host": "bayesian",
+  "executable": "/home/stu6/anaconda3/envs/verl/bin/python3",
+  "cpu_count": 18,
+  "cpu_count_logical": 36,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "982240026624",
+      "used": "875491835904"
+    }
+  },
+  "memory": {
+    "total": "134731653120"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3090",
+      "memoryTotal": "25769803776",
+      "cudaCores": 10496,
+      "architecture": "Ampere",
+      "uuid": "GPU-61352a85-e241-1671-c3be-87a590bbb5f5"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "1mz5umx69diulmyjj8jj0jicxd2vpbsy"
+}

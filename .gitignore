@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+*.whl
+
+verl-3090-v1/
+# 忽略大文件和日志
+*.log
+outputs/
+*.pth
+*.ckpt
+data/
+output/
+checkpoints/
+.vscode/
